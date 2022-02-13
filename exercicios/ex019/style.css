@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* em HTML, id é = a # em CSS
+    em HTML, class = a . em CSS */
+
+
+main{
+    background-color: rgb(65, 71, 26);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+body{
+    background-color: rgb(254, 255, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(198, 0, 248);
+    
+}
+h1#titulo{
+    color: #D32A20;
+    text-align: center;
+    background-color: rgb(254, 255, 239);
+    border-radius: 40px;
+    height: 90px;
+    font-size: 40px;
+    width: 400px;
+    margin: auto;
+
+
+}
+
+.med{
+    color: yellow;
+}
+.hrd{
+    color: red;
+}
+h2{
+    color: rgb(169, 252, 173);
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.destaque{
+    background-color: yellowgreen;
+}

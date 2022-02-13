@@ -1,0 +1,91 @@
+HR -> Linha reta até o final
+BR -> Quebra de linha
+B -> para negrito não semântico
+strong -> para negrito semântico
+I -> para itálico não semântico
+EM -> para itálico semântico (ênfase)
+Q -> Citação semântica
+Blockquote -> para citação de parágrafo de site
+Abbr -> Abreviações com o mouse parado em cima
+bdo -> Para texto invertido
+Mark -> Marca texto (+style) para alterações de cor
+Big -> Texto grande
+Small -> Texto pequeno
+Lorem -> Texto aleatório
+Del -> Texto riscado
+ins -> Texto sublinhado
+U -> Texto sublinhado não semântico
+Sup -> Para textos elevados x²
+Inf -> Texos inferiorizados H20 formula da água
+Code -> Para fonte com espaçamento perfeito
+Pre -> Para aplicar indentação do código
+Pre + Code -> Lista indentada
+
+OL -> Para listas ordenadas -> Bom para listas enumeradas que sofrerão alteração 
+   LI
+   LI
+   LI
+TYPE (A, I, a, i) / Type = Square ou circle para mudar os icones
+ START (números posteriores "start from")
+
+UL -> para listas sem ordenação
+
+DL + DT e DD para listas de definição
+<dl>
+	<dt> /dt
+		<dd> /dd
+
+</dt>
+
+
+ACESSANDO LINKS 
+
+target"_blank" para abrir uma nova guia
+target"_self" para abrir um link na mesma guia
+
+rel external para link externo
+rel next para proxima página
+rel prev para página anterior
+rel dofollow para links referênciados
+
+download + type"application/xxx" -> para baixar o arquivo 
+
+
+Acesse meu repositório público do GitHub, <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">clicando aqui</a>
+
+
+
+
+
+&lt;"p"&gt; para fazer < > less then / greater then
+
+& para mostrar emojis, simbolos e caracteres especiais
+
+downarrow; seta para baixo
+
+&#x1F44D emojipedia
+
+<!-- comentário
+
+CARREGANDO IMAGENS 
+
+Na mesma pasta: 
+
+<img src="logo-html-pequena.png" alt="Logo html 5">
+
+alt= descrição do conteúdo da imagem
+
+para imagens da internet, coloque o link em SRC
+
+width= para escolhero tamanho em pixels da imagem
+
+max-width / min-width
+
+../ para pegar uma informação da pasta anterior
+
+ICONE DO SITE: 
+<link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+
+
+
+
