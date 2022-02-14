@@ -190,7 +190,17 @@ aside > h3{
 
 
 }
+aside > p{
+    
+    padding: 20px;
+    margin: auto;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
 aside > em > p{
+    
     padding: 20px;
     margin: auto;
     text-indent: 20px;
