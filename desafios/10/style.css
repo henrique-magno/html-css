@@ -2,7 +2,6 @@
     font-family: 'tech';
     src: url('fonts/AstroSpace-0Wl3o.otf') format('opentype'), url('fonts/AstroSpace-0Wl3o.otf') format('truetype');
     font-weight: normal;
-    font-weight: normal;
 }
 @font-face {
     font-family: 'indian';
@@ -137,12 +136,20 @@ section > h2{
     padding-left: 20px;
 }
 
-
-img#moça{
+img.imagens{
     display:block;
     margin: auto;
 
+
 }
+
+source.telacel{
+    background-color: #2b6877;
+    display: block;
+    width: 220%;
+}
+
+
 div.video{
     background-color: #ffffff;
     display: block;
