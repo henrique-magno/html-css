@@ -151,9 +151,9 @@ source.telacel{
 
 
 div.video{
-    background-color: #ffffff;
+    background-color: #ee0e0e;
     display: block;
-    padding: 20px;
+
     margin: 0px -20px 30px -20px;
     padding-bottom: 57%;
     position: relative;
@@ -165,7 +165,7 @@ div.video > iframe{
     left: 5%;
     width: 90%;
     height: 90%;
-    border-style: solid;
+
 }
 
 aside{
