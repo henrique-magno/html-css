@@ -51,6 +51,11 @@ header > p > strong > a:hover, footer > p > a:hover{
     font-weight: bold;
 }
 
+main{
+    background-color: black;
+    max-width: 100vh;
+}
+
 div.container{
     background-color: rgb(255, 255, 255);
 
@@ -84,8 +89,9 @@ div#c3 > p, div#c5 > p{
 }
 
 div#c4{
-    background:  black url('imagens/pexels-photo-2118511.jpeg') center center no-repeat fixed;
+    background:  black url('imagens/pexels-photo-2118511.jpeg') center center no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 
 }
 
