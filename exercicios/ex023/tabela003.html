@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            height: 96vh;
+            background: black url('optical-motion-illusion-vector-background-purple-orange-broken-spiral-stripes-move-around-the-center-700-200415845.jpg') center center  no-repeat;
+
+        }
+
+        table{
+
+            border: 4px solid rgb(153, 0, 255);
+            background-color: rgb(255, 109, 42);
+            padding: 10px;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        tr{
+            background-color: rgb(183, 0, 255);
+
+
+        }
+
+        td{
+            border: 2px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-variant:small-caps ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            padding: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de celulas</h1>
+    <table>
+        <tr>
+            <td>a</td>
+            <td colspan="2">b</td>
+            <td rowspan="3">c</td>
+
+
+        </tr>
+        <tr>
+            <td rowspan="3">d</td>
+            <td>e</td>
+            <td>f</td>
+
+        </tr>
+        <tr>
+
+            <td>h</td>
+            <td>i</td>
+
+        </tr>
+        <tr>
+
+            <td>k</td>
+            <td>l</td>
+
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            display: inline-block;
+            width: 500px;
+            position: relative;
+            border-collapse: collapse;
+            
+
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+   
+        }
+
+
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: darkgray;
+        }
+
+        .num{
+            text-align: right;
+        }
+
+        caption{
+            background-color: lightgreen;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: aqua;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: rgb(217, 255, 48);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+        <div>
+            <form action="/w/index.php" id="searchform" class="vector-search-box-form">
+                <div id="simpleSearch" class="vector-search-box-inner" data-search-loc="header-moved">
+                    <input class="vector-search-box-input" type="search" name="search" placeholder="Pesquisar na Wikipédia" aria-label="Pesquisar na Wikipédia" autocapitalize="sentences" accesskey="f" id="searchInput" autocomplete="off">
+                    <input type="hidden" name="title" value="Especial:Pesquisar">
+                    <input id="mw-searchButton" class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Procurar páginas que contêm este texto" value="Pesquisar">
+                    <input id="searchButton" class="searchButton" type="submit" name="go" title="Ir para uma página com este nome exacto, caso exista" value="Ir">
+                </div>
+            </form>
+        </div>
+        <a href="/wiki/Especial:Pesquisar" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+            <span>Busca</span>
+        </a>
+        
+    </div>
+
+    <table>
+
+
+
+        <h1>Uso de tabelas grandes</h1>
+        <caption>População das unidades federativas.</caption>
+        <thead>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px;">População</th>
+
+
+        </thead>
+            
+        <tbody>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    
+                </tr>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    
+                </tr>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    
+                </tr>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    
+                </tr>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    
+                </tr>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    
+                </tr>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+                    
+                </tr>
+                <tr>
+                    <td>Sãp Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">7 675 712</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 784 465</td>
+
+        </tbody>
+
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <td class="num"><strong>0000</strong></td>
+
+        </tfoot>
+
+
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ipsa deleniti, debitis earum nam consequatur rem, magnam facilis eum dolorem quae eveniet, beatae molestiae autem a? Suscipit officiis doloremque veritatis saepe repellat hic necessitatibus provident quam quis, porro consequuntur iure tempora, dolores alias quae iste fugit. Voluptatibus magnam suscipit enim nemo, cumque libero, cum error omnis incidunt tempore numquam eius adipisci dolores voluptas, impedit fuga eum atque maxime fugiat veniam consectetur tenetur neque doloremque dicta. Sapiente aperiam magnam qui, distinctio, quia minima, voluptatibus eos incidunt sequi nemo quam iure aliquam porro excepturi hic! Rem maxime debitis, mollitia repudiandae libero fugit in nihil vitae hic incidunt ad corporis quasi reprehenderit molestiae quas, et iste reiciendis quia eum voluptates voluptate iusto amet? Similique fuga corrupti rerum consequuntur suscipit aperiam tenetur, esse voluptate debitis recusandae est animi ipsa nostrum nulla repudiandae eius dicta. Similique ut recusandae vero totam voluptatum dicta eligendi inventore, voluptas suscipit cupiditate deleniti. Consectetur dolorum, sint vero architecto molestias minus voluptate dolorem eaque ratione quam facilis fuga repudiandae aut rem porro itaque omnis veniam perspiciatis similique assumenda rerum reprehenderit adipisci molestiae? Enim, iste exercitationem harum possimus, reprehenderit cupiditate quis delectus amet blanditiis dolor dolorum aperiam. Molestias mollitia dicta quasi tempore vel aspernatur nam culpa sit ex porro error nobis hic veritatis, magni in accusamus consequatur, nihil facilis minus! Assumenda doloremque omnis, placeat necessitatibus ducimus esse vel odio optio quaerat asperiores nulla facilis ipsum. Quis numquam vel, quisquam sed aut quam sint beatae voluptatem dicta blanditiis animi odit? Ad, possimus placeat.
+    Veritatis consequuntur numquam aliquid. Rem perferendis repudiandae, natus libero sequi magni eius cumque? Commodi necessitatibus quidem, iste nobis voluptatum ad ab libero illo dolorum eaque totam alias in sapiente esse rerum voluptas laborum deserunt incidunt repudiandae, nemo est maxime quisquam. Culpa nulla, molestiae mollitia quas delectus dicta esse beatae tempora asperiores, atque similique minus. Minima recusandae impedit nostrum dolore mollitia earum architecto. Numquam obcaecati, nihil nobis omnis quisquam tempore officia iusto, sunt recusandae dolorum nulla. Dolorem consequatur fugit temporibus ipsum amet error. Quisquam laudantium, consequuntur dicta labore voluptatum error saepe ipsum incidunt soluta eius! Iure eius officiis nobis magnam cum ratione velit nostrum neque maiores quisquam quidem ullam eos reiciendis, ipsam aliquid, in dolores. Minus doloribus tempora deleniti unde nesciunt, vitae fugiat molestias eligendi cupiditate rem! Delectus veritatis iure nulla at quis consequatur in saepe ipsam ut harum sapiente temporibus, nam corporis ducimus perspiciatis doloremque, voluptatem deserunt dignissimos autem error qui! Dolore dicta optio quam adipisci minus natus, quibusdam quas voluptatum a, doloribus magnam consectetur odio neque quis sequi itaque molestias possimus ratione magni vel inventore rem eius? Eum iste, labore reiciendis quia laborum fugit natus. Ab, modi, aut libero at eius exercitationem aperiam rem vitae culpa excepturi consequatur hic sint odit. Quidem numquam, itaque voluptatem, quisquam, reiciendis labore eaque omnis sit iure provident excepturi ratione mollitia? Aliquam, tempora. Illo iste nulla voluptas quo adipisci veniam totam fuga alias ea, voluptatibus quia modi obcaecati? Laborum incidunt rem eligendi fugit, iure, magnam tenetur voluptatem, ex praesentium quos eveniet nam maiores ut?</p>
+    
+</body>
+</html>
